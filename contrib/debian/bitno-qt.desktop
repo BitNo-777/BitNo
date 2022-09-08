@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=bitno
+Comment=bitno P2P Cryptocurrency
+Exec=bitno-qt %u
+Terminal=false
+Type=Application
+Icon=bitno128
+MimeType=x-scheme-handler/bitno;
+Categories=Office;Finance;
+StartupWMClass=bitno-qt
+Name[en_IN]=bitno-qt.desktop

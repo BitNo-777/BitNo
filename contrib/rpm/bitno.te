@@ -1,0 +1,81 @@
+policy_module(bitno, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type bitno_t;
+type bitno_exec_t;
+init_daemon_domain(bitno_t, bitno_exec_t)
+
+permissive bitno_t;
+
+type bitno_initrc_exec_t;
+init_script_file(bitno_initrc_exec_t)
+
+type bitno_conf_t;
+files_type(bitno_conf_t)
+
+type bitno_var_lib_t;
+files_type(bitno_var_lib_t)
+
+type bitno_var_run_t;
+files_type(bitno_var_run_t)
+
+type bitno_port_t;
+corenet_port(bitno_port_t)
+
+########################################
+#
+# bitno local policy
+#
+allow bitno_t self:process { fork };
+
+allow bitno_t self:fifo_file rw_fifo_file_perms;
+allow bitno_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(bitno_t, bitno_conf_t, bitno_conf_t)
+manage_files_pattern(bitno_t, bitno_conf_t, bitno_conf_t)
+
+manage_dirs_pattern(bitno_t, bitno_var_lib_t, bitno_var_lib_t)
+manage_files_pattern(bitno_t, bitno_var_lib_t, bitno_var_lib_t)
+files_var_lib_filetrans(bitno_t, bitno_var_lib_t, { dir file })
+
+manage_dirs_pattern(bitno_t, bitno_var_run_t, bitno_var_run_t)
+manage_files_pattern(bitno_t, bitno_var_run_t, bitno_var_run_t)
+
+sysnet_dns_name_resolve(bitno_t)
+corenet_all_recvfrom_unlabeled(bitno_t)
+
+allow bitno_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(bitno_t)
+corenet_tcp_sendrecv_generic_node(bitno_t)
+corenet_tcp_sendrecv_all_ports(bitno_t)
+corenet_tcp_bind_generic_node(bitno_t)
+
+gen_require(`
+    type bitno_port_t;
+')
+allow bitno_t bitno_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type bitno_port_t;
+')
+allow bitno_t bitno_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(bitno_t)
+
+files_read_etc_files(bitno_t)
+
+miscfiles_read_localization(bitno_t)
+
+sysnet_dns_name_resolve(bitno_t)
+
+allow bitno_t bitno_exec_t:file execute_no_trans;
+allow bitno_t self:process setsched;
+corecmd_exec_ls(bitno_t)
+corenet_tcp_connect_http_port(bitno_t)
+dev_read_urand(bitno_t)
+fs_getattr_xattr_fs(bitno_t)
+kernel_read_system_state(bitno_t)

@@ -1,0 +1,11 @@
+[Protocol]
+exec=bitno-qt '%u'
+protocol=bitno
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

@@ -1,0 +1,8 @@
+/usr/bin/bitno-cli		--	gen_context(system_u:object_r:bitno_exec_t,s0)
+/usr/sbin/bitnod		--	gen_context(system_u:object_r:bitno_exec_t,s0)
+/usr/lib(64)?/bitno/bitnod		--	gen_context(system_u:object_r:bitno_exec_t,s0)
+
+/etc/bitno(/.*)?		gen_context(system_u:object_r:bitno_conf_t,s0)
+/var/lib/bitno(/.*)?		gen_context(system_u:object_r:bitno_var_lib_t,s0)
+
+(/var)?/run/bitnod(/.*)?   gen_context(system_u:object_r:bitno_var_run_t,s0)

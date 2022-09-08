@@ -1,0 +1,14 @@
+QT_TS = \
+  qt/locale/bitno_de.ts \
+  qt/locale/bitno_en.ts \
+  qt/locale/bitno_en_US.ts \
+  qt/locale/bitno_es.ts \
+  qt/locale/bitno_fr_FR.ts \
+  qt/locale/bitno_hr_HR.ts \
+  qt/locale/bitno_it.ts \
+  qt/locale/bitno_ko_KR.ts \
+  qt/locale/bitno_nl.ts \
+  qt/locale/bitno_pl.ts \
+  qt/locale/bitno_ru.ts \
+  qt/locale/bitno_tr.ts \
+  qt/locale/bitno_zh_CN.ts

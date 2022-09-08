@@ -1,0 +1,3 @@
+usr/local/bin/bitnod usr/bin
+usr/local/bin/bitno-cli usr/bin
+debian/examples/bitno.conf etc/bitno

@@ -1,0 +1,6 @@
+usr/local/bin/bitno-qt usr/bin
+share/pixmaps/bitno32.xpm usr/share/pixmaps
+share/pixmaps/bitno16.xpm usr/share/pixmaps
+share/pixmaps/bitno128.png usr/share/pixmaps
+debian/bitno-qt.desktop usr/share/applications
+debian/bitno-qt.protocol usr/share/kde4/services/
