@@ -97,7 +97,7 @@ public:
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
 
-        genesis = CreateGenesisBlock(1662663000, 1697156, "QUEEN ELIZABETH DEAD AT 96");
+        genesis = CreateGenesisBlock(1662663000, 1890419, "QUEEN ELIZABETH DEAD AT 96");
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256("000005a6e8de5b1f1b01256029e386027d1ec7c3d9657f8dc9afbf1e9b9fc552"));
         assert(genesis.hashMerkleRoot == uint256("b2358243415f26c4e1c3972324d5d4a008d87d18b3c06a810ab1d4b8ff9fdd1a"));
