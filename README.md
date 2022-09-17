@@ -92,23 +92,23 @@
 <tbody>
 <tr>
 <td>Marketing</td>
-<td>50.000 BitNo BK4o2cVDzdurvjayr3CeszbACHoYXUZeTV</td>
+<td>50.000 BitNo - BK4o2cVDzdurvjayr3CeszbACHoYXUZeTV</td>
 </tr>
 <tr>
 <td>Streamers</td>
-<td>20.000 BitNo BPRHh12ZFgkHtB2zMobgCSvoCSiFB8eRsz</td>
+<td>20.000 BitNo - BPRHh12ZFgkHtB2zMobgCSvoCSiFB8eRsz</td>
 </tr>
 <tr>
 <td>Giveaways</td>
-<td>15.000 BitNo BPd9wrxcx3HNvCjLGrGGsDk11yPsGbKag7</td>
+<td>15.000 BitNo - BPd9wrxcx3HNvCjLGrGGsDk11yPsGbKag7</td>
 </tr>
 <tr>
 <td>Staff + Nodes</td>
-<td>10.000 BitNo BMXrGZxnMg9z3B5Cpz8dFXMa9a7KxEx6xW</td>
+<td>10.000 BitNo - BMXrGZxnMg9z3B5Cpz8dFXMa9a7KxEx6xW</td>
 </tr>
 <tr>
 <td>Casino Referral and bonusses</td>
-<td>115.000 BitNo https://chainz.cryptoid.info/bitno/wallet.dws?1009.htm</td>
+<td>115.000 BitNo - BPe3ANVRuwCedEUyucdrowYC2ycsU8bUwu</td>
  </tr>
 </tbody>
 </table>
