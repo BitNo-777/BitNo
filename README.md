@@ -109,18 +109,6 @@
 <tr>
 <td>Casino Referral and bonusses</td>
 <td>115.000 BitNo BPe3ANVRuwCedEUyucdrowYC2ycsU8bUwu</td>
-</tr>
-<tr>
-<td>Coin Maturity</td>
-<td>100+1 Block</td>
-</tr>
-<tr>
-<td>Network Port</td>
-<td>53330</td>
-</tr>
-<tr>
-<td>RPC Port</td>
-<td>53331</td>
-</tr>
+ </tr>
 </tbody>
 </table>
