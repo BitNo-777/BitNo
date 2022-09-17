@@ -84,6 +84,43 @@
 <td class="xl65" style="width: 120px; text-align: center;">0.06</td>
 <td class="xl66" style="width: 120px; text-align: center;">0.04</td>
 </tr>
+</tbody>
+</table>
 
+<h2><strong>Premine Specification:</strong></h2>
+<table>
+<tbody>
+<tr>
+<td>Marketing</td>
+<td>50.000 BitNo BK4o2cVDzdurvjayr3CeszbACHoYXUZeTV</td>
+</tr>
+<tr>
+<td>Streamers</td>
+<td>20.000 BitNo BPRHh12ZFgkHtB2zMobgCSvoCSiFB8eRsz</td>
+</tr>
+<tr>
+<td>Giveaways</td>
+<td>15.000 BitNo BPd9wrxcx3HNvCjLGrGGsDk11yPsGbKag7</td>
+</tr>
+<tr>
+<td>Staff + Nodes</td>
+<td>10.000 BitNo BMXrGZxnMg9z3B5Cpz8dFXMa9a7KxEx6xW</td>
+</tr>
+<tr>
+<td>Casino Referral and bonusses</td>
+<td>115.000 BitNo BPe3ANVRuwCedEUyucdrowYC2ycsU8bUwu</td>
+</tr>
+<tr>
+<td>Coin Maturity</td>
+<td>100+1 Block</td>
+</tr>
+<tr>
+<td>Network Port</td>
+<td>53330</td>
+</tr>
+<tr>
+<td>RPC Port</td>
+<td>53331</td>
+</tr>
 </tbody>
 </table>
