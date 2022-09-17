@@ -108,7 +108,7 @@
 </tr>
 <tr>
 <td>Casino Referral and bonusses</td>
-<td>115.000 BitNo BPe3ANVRuwCedEUyucdrowYC2ycsU8bUwu</td>
+<td>115.000 BitNo https://chainz.cryptoid.info/bitno/wallet.dws?1009.htm</td>
  </tr>
 </tbody>
 </table>
