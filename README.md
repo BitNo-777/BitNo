@@ -56,7 +56,7 @@
 <tr>
 <td class="xl65" style="width: 120px; text-align: center;">0</td>
 <td class="xl65" style="width: 120px; text-align: center;">1</td>
-<td class="xl65" style="width: 180px; text-align: center;">1 050 000 [Pre-Mine]</td>
+<td class="xl65" style="width: 180px; text-align: center;">210.000[Pre-Mine]</td>
 </tr>
 <tr>
 <td class="xl65" style="width: 120px; text-align: center;">2</td>
